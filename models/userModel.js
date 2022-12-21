@@ -1,9 +1,10 @@
 class User {
-    constructor(lastname, firstname)
+    constructor(Nom,Age)
     {
-        this.lastname=lastname;
-        this.firstname= firstname;
+        this.Nom=Nom;
+        this.Age=Age;
     }
 }
+
 
 module.exports=User;
